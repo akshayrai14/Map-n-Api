@@ -8,7 +8,7 @@ function Map() {
   const mapContainerRef = useRef(null);
   
   useEffect(() => {
-    mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpdmFuc2h5YXNoYXN2aSIsImEiOiJjbGU3ZWQ3N3AwNGY3M29xcGVxazh5aXhuIn0._YiXv1tUc7Ndp-z8yzvpiQ';
+    mapboxgl.accessToken = 'WHATEVER_ACCESS_TOKEN_YOU_GET_FROM_MAPBOX_IS_TO_BE_COPIED_HERE';
     
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
