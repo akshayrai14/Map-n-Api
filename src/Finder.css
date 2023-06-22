@@ -1,0 +1,32 @@
+.button {
+    padding: 8px 16px;
+    font-size: 25px;
+    background-color: #021429d2;
+    color: #ffffffd5;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+    margin-top: 2%;
+    width: 20%;
+    height: 60px;
+    font-family: 'Megrim', cursive;
+    position: relative;
+  }
+  
+  .button:hover {
+    background-color: #000000;
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ffffff80;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .button {
+      width: auto;
+      margin: 8px;
+    }
+  }
+  
